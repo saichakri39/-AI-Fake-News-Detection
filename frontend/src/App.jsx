@@ -18,7 +18,7 @@ import TrendingNews from './components/TrendingNews'
 import HistoryLog from './components/HistoryLog'
 
 // Dynamic network base URL resolver
-const API_BASE_URL = `http://${window.location.hostname}:5000`
+const API_BASE_URL = "https://saichakri.pythonanywhere.com"
 
 // One-click evaluation testing templates
 const SAMPLES = [

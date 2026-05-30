@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-// Dynamic network base URL resolver
-const API_BASE_URL = `http://${window.location.hostname}:5000`
+const API_BASE_URL = "https://saichakri.pythonanywhere.com"
 
 export default function HistoryLog() {
   const [logs, setLogs] = useState([])
